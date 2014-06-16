@@ -28,6 +28,7 @@ SERVER
 		Mongodb REST ful resources
 		Hypermdeia response
 
+		CORS support
 
 
 Client
@@ -51,4 +52,31 @@ Analytics
 		Google Analytics
 		Server side
 		Mixpanel
+
+
+
+URL:
+
+Fron End: 
+		http://serene-mountain-7282.herokuapp.com/
+
+Spring Data Rest service: 
+		http://safe-ocean-7286.herokuapp.com/
+
+Documentation: 
+		http://gabhi.github.io/todo-rest-server-client-mongo-twilio/
+
+
+Example URI
+
+	curl -i -X POST -H "Content-Type:application/json" -d '{  "title" : "Frodo",  "body" : "44444444Baggins2" }' http://localhost:5000/todo
+
+
+curl -i -X POST -H "Content-Type:application/json" -d '{  "title" : "mash",  "body" : "ape", "done":true }' http://localhost:5000/todo
+
+
+	curl -X PUT -H "Content-Type:application/json" -d '{ "title": "B", "body": "Bs" }' http://localhost:5000/todo/539a5b8b036409028784ed41
+
+
+
 
