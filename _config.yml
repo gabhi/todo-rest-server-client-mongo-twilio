@@ -2,8 +2,8 @@
 title: TODO rest client server app
 email: gaikwad.abhijit@gmail.com
 description: "a simple todo app using Jersey rest server backed by Mongodb and notification system by Twilio"
-baseurl: "http://gabhi.github.io/todo-rest-server-client-mongo-twilio"
-#baseurl: ""
+#baseurl: "http://gabhi.github.io/todo-rest-server-client-mongo-twilio"
+baseurl: ""
 url: "http://yourdomain.com"
 
 # Build settings
