@@ -9,6 +9,8 @@ todo-rest-server-client-mongo-twilio
 
 a simple todo client server app using mongodb and twilio sms notification
 
+ 
+<img src="{{site.baseurl}}/assets/architecture.png"></img>
 
 Architecture
 
