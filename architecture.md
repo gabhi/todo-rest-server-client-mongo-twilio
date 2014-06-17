@@ -69,6 +69,8 @@ Documentation:
 Web service: 
 		http://thawing-sands-2974.herokuapp.com/
 
+Search Service:
+		http://obscure-waters-1043.herokuapp.com/search?q=3
 		
 Example URI
 
