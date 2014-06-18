@@ -10,14 +10,14 @@ todo-rest-server-client-mongo-twilio
 a simple todo client server app using mongodb and twilio sms notification
 
  
-<img src="{{site.baseurl}}/assets/architecture.png"></img>
+<img src="{{site.baseurl}}/assets/architecture.png">
 
 Architecture
 
 SERVER
 		server built using Jersey
-			response type json/xml
-			i18n
+			response type json
+			
 			Ping server
 
 		Database
@@ -36,24 +36,24 @@ SERVER
 Client
 		Angular js consuming the rest server
 
-		allow option to select to send sms or email
+		allow option to select to send sms/email
 
 Documentaion
-		Swagger ui
+				Jekyll
 
 
 Notification System
-		Twilio
+					Twilio
 
 
 Social Networking 
-		FB like
-		Twitter share
+					FB like
+					Twitter share
 
 Analytics
-		Google Analytics
-		Server side
-		Mixpanel
+			Google Analytics
+			Server side
+			Mixpanel
 
 
 
@@ -74,15 +74,6 @@ Web service:
 Search Service:
 		http://obscure-waters-1043.herokuapp.com/search?q=3
 		
-Example URI
-
-	curl -i -X POST -H "Content-Type:application/json" -d '{  "title" : "Frodo",  "body" : "44444444Baggins2" }' http://localhost:5000/todo
-
-
-curl -i -X POST -H "Content-Type:application/json" -d '{  "title" : "mash",  "body" : "ape", "done":true }' http://localhost:5000/todo
-
-
-	curl -X PUT -H "Content-Type:application/json" -d '{ "title": "B", "body": "Bs" }' http://localhost:5000/todo/539a5b8b036409028784ed41
 
 
 
